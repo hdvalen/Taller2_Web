@@ -7,78 +7,99 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="contenedor">
-        <div class="contenedor1">
-            <h2>Peril</h2>
-            <div class="foto">
-                <img src="image/david-street-style-graphic-designtextile-600nw-2265632523.webp" alt="foto" class="img">
-            </div>
-        <div class="inf">
-            <strong>Nombre: </strong> Hodeth Valentina <br>
-            <strong>Apellidos: </strong> Caballero Gutierrez <br>
-            <strong>Email: </strong> hodethcaballero@gmail.com <br>
-            <strong>Nro Contacto: </strong> +57 3160798670 <br>
-            <strong>Edad: </strong> 20 años <br>
-            <strong>Direccion: </strong> Cra 6 # 5-25 piso 2
-        </div>
-        </div>
-        <div class="contenedor2">
-            <div>
-                <h2>Estudios</h2>
-                <dt><strong>Basica Primaria</strong></dt> 
-                <dd>Instituto Madre del Buen Consejo - 2014</dd>
-                <dt><strong>Bachillerato</strong></dt>
-                <dd>Instituto Madre del Buen Consejo - 2020</dd>
-            </div>
-            <div>
-                <h2>Cursos</h2>
-                <dt>Nombre del Curso</dt> 
-                <dd>Sena - 2022</dd>
-                <dd>Stack</dd>
-            </div>
-        </div>
-        <div class="contenedor3">
-        <div>
-            <h2>Mis Proyectos</h2>
-            <dt>Nombre del Proyecto</dt>
-            <dd>Año </dd>
-            <dd>descripcion</dd>
-            <dd>logros alcanzados</dd>
-            <dd>stack tecn</dd>
-        </div>
-        <div>
-            <h2>Experiencia laboral </h2>
-            <dt>Empresa o Persona</dt>
-            <dd>Año/duracion</dd>
-            <dd>logros</dd>
-            <dd>stack tecn</dd>
-        </div>
-        <div>
-            <h2>Skills</h2>
+    <table class="contenedor">
+        <tr>
+            <tr>
+                <!--Primer contenedor-->
+                <td class="cont">
+                    <table  >
+                        <tr>
+                            <td align="center">
+                                <div  class="img">
+                                    <img src="image/david-street-style-graphic-designtextile-600nw-2265632523.webp" alt="foto" class="img">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li><strong>Nombre:</strong> Hodeth Valentina</li>
+                                    <li><strong>Apellidos:</strong> Caballero Gutierrez</li>
+                                    <li><strong>Email:</strong> hodethcaballero@gmail.com</li>
+                                    <li><strong>Nro Contacto:</strong> +57 3160798670</li>
+                                    <li><strong>Edad:</strong> 20 años</li>
+                                    <li><strong>Dirección:</strong> Cra 6 # 5-25 piso 2</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <!--Segundo contenedor-->
+                <td class="cont1">
+                    
+                    <h3>ESTUDIOS</h3>
+                    <ul>
+                        <li><strong>Básica Primaria:</strong> Instituto Madre del Buen Consejo - 2014</li>
+                        <li><strong>Bachillerato:</strong>Instituto Madre del Buen Consejo - 2020 </li>
+                    </ul><br>
+    
+                    <h3>CURSOS</h3>
+                    <ul>
+                        <li><strong>Nombre del curso:</strong> SENA - 2022</li>
+                        <li><strong>Stack Tecnológico:</strong> Python</li>
+                    </ul><br>
 
-        </div>
-        <div>
-            <h2>Contactame</h2>
-            <form action="" class="Formulario">
-                <div>
-                    <label for="nombres">Nombre: </label>
-                    <input type="text"  name="Nombre">
-                <div>
-                    <label for="email">Email: </label>
-                    <input type="email" name="email">
-                </div>
-                <div>
-                    <label for="tel">Telefono: </label>
-                    <input type="number">
-                </div>
-                <div>
-                    <label for="desc">Descripcion: </label>
-                    <input type="text">
-                </div>
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-        </div>
-    </div>
+                    <h3>MIS PROYECTOS</h3>
+                    <ul>
+                        <li><strong>Nombre del proyecto:</strong> Liga Betplay</li>
+                        <li><strong>Descripción:</strong> En este se puede crear un equipo de fultbol, programarun partido, etc</li>
+                        <li><strong>Logros alcanzados:</strong> Python con Persistencia</li>
+                        <li><strong>Stack Tec.:</strong> Python</li>
+                    </ul>
+                    
+                </td>
+                <!--Tercer contenedor-->
+                <td class="cont2">
+                    <table class="cont">
+                    <h3>EXP. LABORAL</h3>
+                    <ul>
+                        <li><strong>Empresa o Persona:</strong> Seven Seven</li>
+                        <li><strong>Año/Duración:</strong> 1 mes</li>
+                        <li><strong>Logros:</strong> </li>
+                        <li><strong>Stack Tec.:</strong> Asesor Comercial</li>
+                    </ul>
+                    <br>
+                    <h3>SKILLS</h3>
+                    <ul>
+                        <li>Python</li>
+                        <!-- Agrega más habilidades si es necesario -->
+                    </ul>
+                    <br>
+                    <h3>CONTACTAME</h3>
+                    <ul>
+                        <form action="" class="Formulario">
+                            <div>
+                                <label for="nombres">Nombre: </label>
+                                <input type="text"  name="Nombre">
+                            <div>
+                                <label for="email">Email: </label>
+                                <input type="email" name="email">
+                            </div>
+                            <div>
+                                <label for="tel">Telefono: </label>
+                                <input type="number">
+                            </div>
+                            <div>
+                                <label for="desc">Descripcion: </label>
+                                <input type="text">
+                            </div>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </ul>
+                </table>
+                </td>
+        
+    </tr>
+    </table>
 </body>
 </html>

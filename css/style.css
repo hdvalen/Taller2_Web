@@ -1,68 +1,80 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-.contenedor1{
-    background-color: #d4d3d2;
-    padding: 10px;
-    color: black;
-    border: 2px solid white;
-    box-shadow: 10px 10px 5px 0px #ab9cab;
-    right: 550px;
-    width: 500px;
-    height: 900px;
-    top: 500px;
-    margin: 10px  30px;
-
-}
-
-.contenedor2{
-    
-    background-color: #d4d3d2;
-    padding: 10px;
-    color: black;
-    border: 2px solid white;
-    box-shadow: 10px 10px 5px 0px #ab9cab;
-    right: 550px;
-    width: 500px;
-    height: 900px;
-    top: 500px;
-    margin: 10px 80px;
-
-}
-
-.contenedor3{
-    background-color: #d4d3d2;
-    padding: 10px;
-    color: black;
-    border: 2px solid white;
-    box-shadow: 10px 10px 5px 0px #ab9cab;
-    right: 550px;
-    width: 500px;
-    height: 900px;
-    top: 500px;
-    margin: 10px  10px ;
-    flex-wrap: wrap;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 0;
 }
 
 .contenedor{
-    display: flex;
+    background-color: white;
+    margin: 20px auto;
+    box-shadow: 0 0 10px #0000001a;
+    border-collapse: collapse;  
+    
+}
+
+.cont {
+    background-color: #ffffff;
+    vertical-align: top;
+    padding: 15px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px #0000001a;
+    border-collapse: collapse;
+    width: 300px;   
+    text-align: justify;
+}
+
+.cont1{
+    background-color: #ffffff;
+    vertical-align: top;
+    padding: 15px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px #0000001a;
+    border-collapse: collapse;
+    width: 300px;  
+    height: 570px;
+}
+.cont2{
+    background-color: #ffffff;
+    vertical-align: top;
+    padding: 15px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px #0000001a;
+    border-collapse: collapse;
+    width: 300px;  
+    text-align: justify;
+}
+
+img{
+    width: 150px; 
+    height: 150px;
+    background-color: #ccc; 
+    border-radius: 50%;
 }
 
 
-.img{
-    border-radius: 50px;
-    border: 2px solid white;
-    right: 90px;
-    top: 90px;
-    height: 90px;
-    width: 90px;
-    
-    
-}
-.inf{
-    border: 2px solid white;
+h3 {
+    font-size: 18px;
     text-align: center;
-    margin-top: 90px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border-radius: 50%;
+    color: white;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
 }
