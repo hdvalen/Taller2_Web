@@ -6,10 +6,13 @@ body {
 }
 
 .contenedor{
-    background-color: white;
-    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
     box-shadow: 0 0 10px #0000001a;
     border-collapse: collapse;  
+    width: 70%;
+    height: 0%;
+    padding: 15px;
     
 }
 
@@ -20,8 +23,10 @@ body {
     margin: 20px auto;
     box-shadow: 0 0 10px #0000001a;
     border-collapse: collapse;
-    width: 300px;   
+    width: 200px;   
     text-align: justify;
+    
+   
 }
 
 .cont1{
@@ -31,8 +36,9 @@ body {
     margin: 20px auto;
     box-shadow: 0 0 10px #0000001a;
     border-collapse: collapse;
-    width: 300px;  
-    height: 570px;
+    width: 350px;  
+    text-align: justify;
+    
 }
 .cont2{
     background-color: #ffffff;
@@ -45,14 +51,13 @@ body {
     text-align: justify;
 }
 
-img{
-    width: 150px; 
-    height: 150px;
-    background-color: #ccc; 
-    border-radius: 50%;
+
+.info{
+    margin-top: 70px;
+    margin-left: 90px;
+    text-align: justify;
+    
 }
-
-
 h3 {
     font-size: 18px;
     text-align: center;
@@ -67,6 +72,46 @@ li {
     margin-bottom: 10px;
 }
 
+.estu{
+    border: 1px solid #c9c9c9;
+    padding: 5px;
+}
+
+.curs{
+    border: 1px solid #c9c9c9;
+    padding: 5px;
+}
+
+.proy{
+    border: 1px solid #c9c9c9;
+    padding: 5px;
+}
+
+.exp{
+    border: 1px solid #c9c9c9;
+    padding: 5px;
+}
+
+.ski{
+    border: 1px solid #c9c9c9;
+    padding: 5px;
+}
+.contacto{
+    border: 1px solid #c9c9c9;
+    padding: 8px;
+}
+.boton{
+    border-radius: 5px;
+    background-color: #def1de;
+    color: #000000;
+    text-align: center;
+    margin-left: 100px;
+}
+.datos{
+    border-radius: 3px;
+    background-color: #ebe3e3   ;
+    
+}
 img {
     display: flex;
     justify-content: center;
@@ -74,7 +119,9 @@ img {
     background-color: #ccc;
     border-radius: 50%;
     color: white;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    margin: 30px  auto;
+    margin-left: 90px;
+
 }
